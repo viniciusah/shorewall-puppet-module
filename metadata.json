@@ -1,0 +1,20 @@
+{
+  "license": "GPL 3",
+  "version": "0.1.0",
+  "summary": "Shorewall Puppet Module",
+  "description": "Puppet Module for Shorewall",
+  "source": "git://github.com/viniciusah/shorewall-puppet-module.git",
+  "project_page": "https://github.com/viniciusah/shorewall-puppet-module",
+  "types": [
+
+  ],
+  "name": "shorewall-puppet-module",
+  "author": "Vinicius Alves Hax",
+  "dependencies": [
+
+  ],
+  "checksums": {
+    "Modulefile": "e6afe84da40ba95be420631f0d003f12",
+    "manifests/init.pp": "e6a7f3b7bad34115cfae539a72c19795"
+  }
+}

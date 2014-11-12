@@ -1,0 +1,35 @@
+# Shorewall Puppet Module
+
+This module install and configure shorewall on client machines.
+
+This module has been tested against Puppet 3.3.2 on Debian 6 and 7.
+
+
+
+### Authors
+
+* Vinicius Alves Hax <viniciushax@gmail.com>
+
+
+
+## Usage
+
+
+
+```puppet
+
+class { 'shorewall':
+
+  rules_file => "puppet:///files/etc/shorewall/rules.nodename"
+  
+}
+
+```
+
+
+
+This is the only configuration supported at this time. Custom user parameters may
+
+come at a later date. If there is any other configuration that ought to be made available,
+
+then please let me know.
